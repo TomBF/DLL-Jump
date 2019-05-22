@@ -31,9 +31,9 @@ The project includes three reference implementations, located in the plugins fol
 ### DefaultWorld.dll
 A horizontal scrolling 2D world with static obstacles and static enemies. 
 ### KeyboardController.dll
-A controller that fetches <space> and <arrow> keys to control the main players.
+A controller that fetches [space] and [arrow] keys to control the main players.
 ### AIController.dll
-A simple ai controller that automatically tries to climp as high as possible.
+A simple AI controller that automatically tries to climp as high as possible.
 
 
 
