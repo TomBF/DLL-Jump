@@ -1,15 +1,14 @@
 # DLL-Jump
 ![App Screenshot](/bin/screenshot.png)
 
-   
-DLL-Jump is an application that simulates a simple world similiar to Doodle Jump.
-The environment and the controls are implemented by a DLL based hot-load plugin architecture.  
-It runs on Windows and is written in C++ and CLR
+  
+DLL-Jump is an application that simulates a simple world similiar to Doodle Jump. The environment and the controls are implemented by a DLL based hot-load plugin architecture. It runs on Windows and is written in C++ and CLR
 
+## Evaluator
 bin/Evaluator.exe  
-Program that ticks and renders a 2D world provided by a provided DLL and a controller provided by another DLL. All DLLs can be loaded and replaced while running. **The source of the evaluator application itself is hidden**
+Program that ticks and renders a 2D world by a provided DLL. It also moves a player (green) that is controlled via a controller provided by another DLL. All DLLs can be loaded and replaced while running. **The source of the evaluator application itself is hidden**
 
-## Parameter
+### Parameter
 Following arguments are supported:  
 /world [path to world dll]  
 /controller [path to controller dll]  
