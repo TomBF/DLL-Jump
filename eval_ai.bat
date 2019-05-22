@@ -1,0 +1,1 @@
+start bin\Evaluator.exe /world plugins/DefaultWorld/bin/DefaultWorld.dll" /controller plugins/AIController/bin/AIController.dll /timestep 1
