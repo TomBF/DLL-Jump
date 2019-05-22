@@ -7,7 +7,7 @@ bin/Evaluator.exe
 Program that ticks and renders a 2D world provided by a DLL and a controller provided by another DLL
 
 Following arguments are supported:
-/world <path to world dll> 
+/world [path to world dll]
 /controller <path to controller dll>
 /timestep <frame timestep, lower for faster simulation>
 
@@ -22,7 +22,7 @@ see ControllerInterface.h
 
 The project include 3 reference implementions to be found in the plugin folder:
 - DefaultWorld: a horizontal scrolling 2D world with static obstacles and enemies. The horizontal size is limited to ~5000 pixel the level is deterministic
-- KeyboardController: a controller that fetched <space> and <arrow> keys to controll the main players
+- KeyboardController: a controller that fetches <space> and <arrow> keys to control the main players
 - AIController: a simple ai controller that automatically tries to climp as heigh as possible
 
 
