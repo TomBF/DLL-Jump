@@ -7,7 +7,7 @@ The environment and the controls are implemented by a DLL based hot-load plugin 
 It runs on Windows and is written in C++ and CLR
 
 bin/Evaluator.exe  
-Program that ticks and renders a 2D world provided by a provided DLL and a controller provided by another DLL. All DLLs can be loaded and replaced while running.
+Program that ticks and renders a 2D world provided by a provided DLL and a controller provided by another DLL. All DLLs can be loaded and replaced while running. **The source of the evaluator application itself is hidden**
 
 ## Parameter
 Following arguments are supported:  
