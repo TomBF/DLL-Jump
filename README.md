@@ -12,12 +12,12 @@ Following arguments are supported:
 > /controller [path to controller dll]
 > /timestep [frame timestep, lower for faster simulation]
 
+## Plugins
 The program supports two types of plugins:
-### World DLL
+- World DLL
 Builds and simulates a scrolling 2D World, featuring bases, enemies and players
 For implementation details see WorldInterface.h
-
-### Controller DLL
+- Controller DLL
 Controls the main player by providing jump and side movemements
 see ControllerInterface.h
 
