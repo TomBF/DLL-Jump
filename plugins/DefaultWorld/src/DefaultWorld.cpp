@@ -74,8 +74,8 @@ void StaticWorldImpl::build(float field_width, float field_height)
 	field_width_ = field_width;
 	field_height_ = field_height;
 
-	//srand((unsigned int)time(0));
-	srand(2);
+	srand((unsigned int)time(0));
+	//srand(2);
 
 	player_.id_ = 0;
 	player_.pos_.x = field_width / 2.0f;
