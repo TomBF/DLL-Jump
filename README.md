@@ -2,7 +2,9 @@
 ![App Screenshot](/bin/screenshot.png)
 
   
-DLL-Jump is an application that simulates a simple world similiar to Doodle Jump. It features a player (green cirlce) that is able to jump on obstacles (white lines) and dies on contact with enemies (purple circles) or falls below the level border. The environment and the controls are implemented by a DLL-based plugin architecture. It runs on Windows and is written in C++ and CLR. Rendering is done pixel-based on the CPU.
+DLL-Jump is an application that simulates a scrolling 2D world similiar to Doodle Jump. It features a player (green cirlce) that is able to jump on obstacles (white lines) and dies on contact with enemies (purple circles) or falls below the level border.  
+
+The environment and the controls are implemented by a DLL-based plugin architecture. It runs on Windows and is written in C++ and CLR. Rendering is done pixel-based on the CPU.
 
 ## Evaluator
 bin/Evaluator.exe  
