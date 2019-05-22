@@ -11,9 +11,9 @@ Program that ticks and renders a 2D world provided by a provided DLL and a contr
 
 ## Parameter
 Following arguments are supported:  
-> /world [path to world dll]  
-> /controller [path to controller dll]  
-> /timestep [frame timestep, lower for faster simulation]  
+/world [path to world dll]  
+/controller [path to controller dll]  
+/timestep [frame timestep, lower for faster simulation]  
 
 ## Plugins
 The program supports two types of plugins:
@@ -31,7 +31,7 @@ A horizontal scrolling 2D world with static obstacles and enemies. The horizonta
 ### KeyboardController.dll
 A controller that fetches <space> and <arrow> keys to control the main players.
 ### AIController.dll
-A simple ai controller that automatically tries to climp as heigh as possible.
+A simple ai controller that automatically tries to climp as high as possible.
 
 
 
