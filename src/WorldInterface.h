@@ -14,6 +14,8 @@ struct Player
 {
 	int id_;
 	Point2D pos_;
+	Point2D speed_;
+
 	float radius_;
 
 	/// true if player is moveable

@@ -6,10 +6,10 @@
 
 class StaticWorldImpl : public WorldInterface
 {
+	Player player_;
+	
 	std::vector<Player> enemies_;
 	std::vector<Base> bases_;
-	Player player_;
-	Point2D player_speed_;
 
 	float field_width_;
 	float field_height_;
@@ -20,7 +20,7 @@ public:
 
 	void updateEnemies(float time_step, std::vector<Player>& enemies);
 	void updateBases(float time_step, std::vector<Base>& bases);
-	bool hasPlayerEnemyContact(const Player& player);
+	Player* hasPlayerEnemyContact(const Player& player);
 	bool hasPlayerGroundContact(const Player& player, float& ground_height);
 
 
@@ -40,16 +40,8 @@ public:
 	}
 
 	void build(float field_width, float field_height);
-
 	void updatePlayer(float time_step, Player& player, const ControllerInterface& ctrl);
-
 	virtual void onTick(float time_step, const ControllerInterface& ctrl) override;
-
 	void end();
 
 };
-
-
-
-
-
